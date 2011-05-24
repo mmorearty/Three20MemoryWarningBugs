@@ -1,0 +1,3 @@
+@interface FirstTable : TTTableViewController
+
+@end

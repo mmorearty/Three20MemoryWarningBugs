@@ -7,6 +7,7 @@
   [super viewDidLoad];
 
   [self setTabURLs:[NSArray arrayWithObjects:
+                    @"mm://firsttable",
                     @"mm://emptytable",
                     @"mm://errortable",
                     @"mm://bannertable",

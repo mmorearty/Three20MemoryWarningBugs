@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 #import "MyTabBarController.h"
+#import "FirstTable.h"
 #import "EmptyTable.h"
 #import "ErrorTable.h"
 #import "BannerTable.h"
@@ -15,6 +16,7 @@
 
   [map from:@"*" toViewController:[TTWebController class]];
   [map from:@"mm://home" toSharedViewController:[MyTabBarController class]];
+  [map from:@"mm://firsttable" toSharedViewController:[FirstTable class]];
   [map from:@"mm://emptytable" toSharedViewController:[EmptyTable class]];
   [map from:@"mm://errortable" toSharedViewController:[ErrorTable class]];
   [map from:@"mm://bannertable" toSharedViewController:[BannerTable class]];
