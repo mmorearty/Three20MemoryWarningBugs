@@ -1,0 +1,3 @@
+@interface EmptyTable : TTTableViewController
+
+@end

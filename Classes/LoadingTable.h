@@ -1,0 +1,3 @@
+@interface LoadingTable : TTTableViewController
+
+@end

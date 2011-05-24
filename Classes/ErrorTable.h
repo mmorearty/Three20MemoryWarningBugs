@@ -1,0 +1,3 @@
+@interface ErrorTable : TTTableViewController
+
+@end
